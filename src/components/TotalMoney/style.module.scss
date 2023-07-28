@@ -1,0 +1,16 @@
+.totalValue {
+  border: 1px solid var(--Gray-2);
+  margin-top: 8%;
+  padding: 12px;
+  width: clamp(0rem, 100%, 22.1875rem);
+  div {
+    display: flex;
+    justify-content: space-between;
+    p {
+      color: var(--Color-primary);
+    }
+  }
+  p {
+    color: var(--Gray-3);
+  }
+}

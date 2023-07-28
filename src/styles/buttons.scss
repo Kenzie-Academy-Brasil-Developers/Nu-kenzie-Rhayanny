@@ -1,0 +1,46 @@
+.btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  width: 25%;
+  height: 3rem;
+
+  border-radius: 8px;
+  color: var(--Gray-1);
+  background: var(--Color-primary);
+  border: 2px solid var(--Color-primary);
+
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: 700;
+
+  &:hover {
+    background: var(--Color-primary-2);
+    border: 2px solid var(--Color-primary-2);
+  }
+}
+
+.btnExit {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 49px;
+  height: 19px;
+
+  border: transparent;
+  border-radius: 2px;
+  color: var(--Gray-4);
+  background: var(--Gray-2);
+
+  font-family: var(--font-family);
+  font-size: 0.625rem;
+  font-weight: 400;
+
+  &:hover {
+    background: var(--Gray-4);
+    color: var(--Gray-1);
+  }
+}

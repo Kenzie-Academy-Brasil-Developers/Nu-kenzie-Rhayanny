@@ -1,0 +1,15 @@
+.sectionFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  @media (min-width: 900px) {
+    flex-direction: row;
+  }
+  div {
+    width: 100%;
+
+    h2 {
+      margin-bottom: 8%;
+    }
+  }
+}

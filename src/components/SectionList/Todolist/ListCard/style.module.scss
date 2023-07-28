@@ -1,0 +1,29 @@
+.listCard {
+  width: clamp(0rem, 100%, 35rem);
+  height: clamp(0rem, 100%, 5.4375rem);
+  border-radius: 4px 0 0 4px;
+  background-color: var(--Gray-1);
+  padding: 10px 20px;
+  margin-top: 15px;
+
+  div {
+    margin-top: 0.3125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media (min-width: 900px) {
+      flex-direction: row;
+    }
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  &.green {
+    border-left: 5px solid var(--Color-Secondary);
+  }
+  &.grey {
+    border-left: 5px solid var(--Gray-2);
+  }
+}
